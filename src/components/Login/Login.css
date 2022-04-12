@@ -6,6 +6,7 @@
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    box-shadow: 10px 6px lightslategray;
 
 }
 
@@ -35,13 +36,19 @@
 }
 
 .form-submit {
+    margin-top: 15px;
     width: 415px;
     height: 55px;
-    background-color: burlywood;
+    background-color: rgb(222, 184, 135);
     border: none;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgb(231, 164, 82);
 }
 
 .form-link {
